@@ -1,7 +1,7 @@
 # Go parameters
-BINARY_NAME=go-project-template
+BINARY_NAME=go-prometheus-rules-csv
 BINARY_UNIX=$(BINARY_NAME)_unix
-REPO=ghcr.io/dathan/go-project-template/go-project-template
+REPO=ghcr.io/dathan/go-prometheus-rules-csv/go-prometheus-rules-csv
 
 .PHONY: all
 all: lint test build
